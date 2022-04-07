@@ -1,0 +1,33 @@
+$myMargin: 10px auto;
+$myColor: rgb(53, 51, 51);
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+}
+
+.button {
+  width: 70px;
+  margin: $myMargin;
+}
+
+.thead-dark {
+  background-color: $myColor;
+  color: beige;
+}
+
+.table {
+  width: 80%;
+  align-self: center;
+  margin: $myMargin;
+}
+
+input {
+  border: 1px solid $myColor;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+thead,
+td {
+  text-align: center;
+}
